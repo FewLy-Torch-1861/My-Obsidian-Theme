@@ -1,34 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+Thai:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+	font-family: "Symbols Nerd Font";
+	src: url("./fonts/SymbolsNerdFont-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Symbols Nerd Font Mono";
+	src: url("./fonts/SymbolsNerdFontMono-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-	--radius-s: 0px;
-	--radius-m: 0px;
-	--radius-l: 0px;
-	--input-radius: 0px;
-	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
-	--toggle-radius: 0px;
-	--toggle-thumb-radius: 0px;
-	--slider-thumb-radius: 0px;
-}
-
-.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
-	display: none;
-}
-
-svg * {
-	stroke-linecap: square;
-	stroke-linejoin: miter;
-	rx: 0;
-	ry: 0;
-}
-
-.menu {
-	padding: var(--size-2-1);
-}
-
-.menu-item {
-	padding: var(--size-4-1) var(--size-4-2);
-}
-
-.menu-separator {
-	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+	--font-text-theme:
+		"Noto Sans", "Noto Sans Thai", "Symbols Nerd Font", sans-serif;
+	--font-interface-theme:
+		"Noto Sans", "Noto Sans Thai", "Symbols Nerd Font", sans-serif;
+	--font-monospace-theme:
+		"JetBrains Mono", "Noto Sans Thai", "Symbols Nerd Font Mono", monospace;
 }
