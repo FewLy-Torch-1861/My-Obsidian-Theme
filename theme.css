@@ -15,10 +15,17 @@
 }
 
 body {
+	/* Change font family*/
 	--font-text-theme:
 		"Noto Sans", "Noto Sans Thai", "Symbols Nerd Font", sans-serif;
 	--font-interface-theme:
 		"Noto Sans", "Noto Sans Thai", "Symbols Nerd Font", sans-serif;
 	--font-monospace-theme:
 		"JetBrains Mono", "Noto Sans Thai", "Symbols Nerd Font Mono", monospace;
+}
+
+.theme-dark {
+	--accent-h: 267deg;
+	--accent-s: 83%;
+	--accent-l: 80%;
 }
