@@ -25,6 +25,7 @@ body {
 }
 
 .theme-dark {
+	/* Change accent color */
 	--accent-h: 267deg;
 	--accent-s: 83%;
 	--accent-l: 80%;
